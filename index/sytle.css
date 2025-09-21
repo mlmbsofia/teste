@@ -98,7 +98,7 @@ body{
 
 .block_1 {
 
-    background-image: url(image/mestre.jpg);
+    background-image: url('image/mestre.jpg');
     background-repeat: no-repeat;
     background-size: 150%;
     width: 320px;
@@ -120,7 +120,7 @@ p{
 
 .block_2 {
 
-    background-image: url(image/player.jpg);
+    background-image: url('image/player.jpg');
     background-repeat: no-repeat;
     background-size: 150%;
     width: 320px;
@@ -143,4 +143,3 @@ footer{
     height: 30px;
     background-color: black;
 }
-
