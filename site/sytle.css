@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+.header_container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.col-50{
+    width: 50%;
+}
+
+
+.header_logo img {
+    padding: 20px;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+}
+
+.container_dad{
+    display: flex;
+    align-content: end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container_son{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.container_son a {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+    padding: 10px;
+}
+
+.nav_container{
+    background-color: rgb(92, 3, 3);
+    width: auto;
+}
+
+.nav_menu {
+    background-color: rgb(92, 0, 0);
+    padding: auto;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.nav_menu a{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.slideshow-container img{
+    width: 100%;
+    height: 550px;
+}
+
+.text-container1{
+    width: 70%;
+    margin: 30px;
+}
+
+.text-container1 h1 {
+    color: white;
+    font-size: 25px;
+    font-family: "Archivo Black", sans-serif;;
+}
+
+.text-container1 p {
+    color: white;
+    font-size: 15px;
+    font-display: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-container1 a {
+    color: white;
+    font-size: 15px;
+    font-family: "Archivo Black", sans-serif;;
+}
+
+.col-70{
+    width: 70%;
+    display: flex;
+
+}
+
+.col-30{
+    width: 30%;
+    display: flex;
+
+}
+
+.container_main {
+
+    background-color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    padding: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-flow: row;
+    row-gap: 20px;
+    column-gap: 20px;
+
+
+
+}
+
+.block_1 {
+
+    background-image: url('image/mestre.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    width: 320px;
+    height: 250px;
+    padding: 30px;
+    border: 2px solid rgb(238, 229, 189);
+    border-radius: 15px; 
+
+}
+
+.block_1 h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: aliceblue;
+}
+
+.block_2 {
+
+    background-image: url('image/player.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    width: 320px;
+    height: 250px;
+    padding: 30px;
+    border: 2px solid rgb(238, 229, 189);
+    border-radius: 15px; 
+
+}
+
+.block_2 h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.block_3 {
+
+    background-image: url('image/mestre.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    width: 320px;
+    height: 250px;
+    padding: 30px;
+    border: 2px solid rgb(238, 229, 189);
+    border-radius: 15px; 
+
+}
+
+.block_3 h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.block_4 {
+
+    background-image: url('image/mestre.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    width: 320px;
+    height: 250px;
+    padding: 30px;
+    border: 2px solid rgb(238, 229, 189);
+    border-radius: 15px; 
+
+}
+
+.block_4 h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.text-container2{
+    width: 70%;
+    margin: 30px;
+    flex-direction: row;
+}
+
+.text-container2 h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.text-container2 p {
+    color: white;
+    font-size: 15px;
+    font-display: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container_cards{
+    display: fLex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 150px; 
+    height: 300px;
+    perspective: 1000px;
+}
+
+.card-atras{
+    width: 100%; 
+    height: 100%;
+    position: relative; 
+    transform-style: preserve-3d; transition: transform 0.85;
+}
+
+.card:hover .card-atras{
+    transform: rotateY(180deg) ;
+}
+
+.card-frente, .card-texto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-frente {
+    background-color: black;
+}
+
+.card-frente img { 
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-texto{
+    background-color: black;
+    color: white;
+    display: fLex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    transform: rotateY 180deg;
+    padding: 5px;
+    text-align: center;
+}
+
+.card-texto h2 {
+    margin-bottom: 10px;
+}
+
+.card-texto p {
+    font-size: 14px;
+}
+
+.text-container3{
+    width: 70%;
+    margin: 30px;
+    flex-direction: row;
+}
+
+.text-container2 h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.text-container2 p {
+    color: white;
+    font-size: 15px;
+    font-display: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+footer a{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.socials{
+    display: flex;
+    justify-content: center; 
+    margin-block: 20px;
+    width: 100%;
+}
+
+.social a{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.social a:hover{
+    color: #fff;
+}
+
+.info{
+    display: flex;
+    justify-content: center; 
+    margin-block: 20px;
+    gap: 20px;
+}
+
+.footer-list_header{
+    font-size: 10px; 
+    color: #949393;
+}
+
+footer{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer-title{
+    font-size: 1.5em;
+}
+
+.footer-title img {
+    width: 50px;
+    height: 50px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0; 
+    text-align: left;
+}
+
+footer ul li{
+    margin: 10px 10px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 10px;
+}
+
+footer ul li a:hover{
+    color: #a5a3a3;
+}
