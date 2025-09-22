@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
     margin: 0;
@@ -34,7 +35,8 @@ height: 23px;
 
 .container h1{
     font-size: 36px;
-    text-align: center;   
+    text-align: center; 
+    font-family: "Archivo Black", sans-serif;
 }
 
 .input-box{
@@ -73,6 +75,7 @@ height: 23px;
     display: flex;
     padding: 10px;
     justify-content: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: -5px 0 15px;
 }
 
@@ -101,6 +104,7 @@ height: 23px;
     font-size: 16px;
     color: #302a2a;
     font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     margin: 15px 0 0 0;
 }
@@ -122,6 +126,7 @@ height: 23px;
     color: black;
     margin: 15px 0 0 0 ;
     font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: none;
 
 }
